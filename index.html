@@ -6,11 +6,14 @@
 	</head>
 	<body style="margin: 0; overflow: hidden;">
 		<a-scene embedded 
-		    arjs="mattrixCodeType: 3x3;"
+		    arjs="detectionMode: mono_and_matrix;
+		    matrixCoadType: 3x3;" 
 	            vr-mode-ui="enabled: false">
+	<a-maker type="baroode" value"3">
+		<a-image src="N1.jpg"></a-image>
+	</a-maker>
 	<a-maker type="baroode" value"5">
-		
-		  <a-box position="0 0.5 0"
+		 <a-box position="0 0.5 0"
 		    material="color: red;">
 		  </a-box>
 	</a-maker>
